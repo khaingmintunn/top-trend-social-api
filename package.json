@@ -1,0 +1,42 @@
+{
+  "name": "top-trend-social-api",
+  "version": "0.0.1",
+  "description": "trend post of social medias",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "format": "prettier --write **/*.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run format"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khaingmintunn/top-trend-social-api.git"
+  },
+  "author": "khaingmintun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khaingmintunn/top-trend-social-api/issues"
+  },
+  "homepage": "https://github.com/khaingmintunn/top-trend-social-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "husky": "^4.2.5",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
+    "twitter": "^1.7.1",
+    "validator": "^13.1.1"
+  },
+  "keywords": [
+    "heroku"
+  ],
+  "engines": {
+    "node": "10.x"
+  }
+}
